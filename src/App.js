@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TextUtils from "./pages/TextUtils";
-import News from "./pages/News";
+// import News from "./pages/News";
 import Header from "./components/Header";
 import Note from "./components/Note";
 import CreateArea from "./components/CreateArea";
@@ -38,7 +38,7 @@ function App() {
         );
       })}
       <TextUtils />
-      <News />
+      {/* <News /> */}
     </>
   );
 }
