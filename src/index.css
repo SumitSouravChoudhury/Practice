@@ -10,6 +10,9 @@ body {
     padding: 0 16px;
 }
 
+.keeper {
+    margin-bottom: 60px;
+}
 
 header {
     background-color: #f5ba13;

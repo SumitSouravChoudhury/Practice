@@ -25,6 +25,7 @@ function App() {
   return (
     <>
       <Header />
+      <TextUtils />
       <CreateArea onAdd={addNote} />
       {notes.map((noteItem, index) => {
         return (
@@ -37,7 +38,6 @@ function App() {
             />
         );
       })}
-      <TextUtils />
       {/* <News /> */}
     </>
   );

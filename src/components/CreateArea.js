@@ -27,7 +27,7 @@ function CreateArea(props) {
   }
 
   return (
-    <div>
+    <div className="keeper">
       <form>
         <input
           name="title"
